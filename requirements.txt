@@ -1,0 +1,8 @@
+# Runtime
+langgraph>=0.4
+ollama>=0.5
+pymupdf>=1.24
+python-dotenv>=1.0
+
+# Dev / kiem thu (pytest chay duoc ma KHONG can Ollama - xem tests/conftest.py)
+pytest>=8.0

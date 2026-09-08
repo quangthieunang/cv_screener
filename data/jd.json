@@ -1,0 +1,37 @@
+{
+  "position": "Backend Engineer (Python)",
+  "mandatory": {
+    "min_years_experience": 2,
+    "required_skills": [
+      "python",
+      "sql"
+    ],
+    "min_education": "bachelor"
+  },
+  "nice_to_have_skills": [
+    "docker",
+    "aws",
+    "kubernetes",
+    "fastapi",
+    "postgresql",
+    "redis"
+  ],
+  "expected_years_experience": 4,
+  "weights": {
+    "skills": 40,
+    "experience": 30,
+    "education": 20,
+    "fit": 10
+  },
+  "thresholds": {
+    "invite": 85,
+    "reject": 70
+  },
+  "jd_text": "Cong ty tuyen Backend Engineer (Python) cho he thong dich vu web quy mo lon. Cong viec: thiet ke va phat trien REST API bang Python (FastAPI/Django), toi uu truy van co so du lieu quan he (PostgreSQL), trien khai bang Docker tren AWS, dam bao do tin cay va hieu nang. Yeu cau: tot nghiep dai hoc nganh CNTT hoac tuong duong, it nhat 2 nam kinh nghiem backend voi Python va SQL. Uu tien ung vien co kinh nghiem microservices, CI/CD, va he thong tai cao.",
+  "prefilter": {
+    "enabled": true
+  },
+  "cache": {
+    "enabled": true
+  }
+}

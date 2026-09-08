@@ -1,0 +1,20 @@
+# Bi mat - TUYET DOI khong commit (mat khau SMTP nam trong day)
+.env
+
+# Moi truong ao & bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Du lieu ung vien va ket qua chay - chua PII, khong dua len repo
+data/cvs/*.pdf
+data/outputs/
+data/cache/
+
+# Giu lai CV mau dung cho nghiem thu (DESIGN.md muc 10)
+!data/cvs/cv_strong_tran_thi_b.pdf
+!data/cvs/cv_mid_pham_van_d.pdf
+!data/cvs/cv_weak_le_van_c.pdf
+
+# pytest
+.pytest_cache/
