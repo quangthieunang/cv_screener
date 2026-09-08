@@ -1,7 +1,7 @@
 """
 Trang thai (state) cho LangGraph agent loc CV.
 
-Moi lan chay graph xu ly MOT ung vien (giong shopping-agent chay 1 query).
+Moi lan chay graph xu ly MOT ung vien.
 Batch nhieu CV do main.py lap va goi graph nhieu lan.
 """
 from typing import TypedDict, Optional, List, Dict, Any

@@ -4,8 +4,7 @@ Trợ lý lọc hồ sơ tuyển dụng: tự động **bóc tách thông tin CV
 phù hợp với JD (thang 1-100)**, và **ra quyết định mời phỏng vấn / từ chối** kèm soạn email.
 Xử lý được hàng loạt cả thư mục CV — giải bài toán "500 CV, 80% không đạt yêu cầu cơ bản".
 
-Xây trên nền **LangGraph pipeline tất định** + **Ollama `qwen2.5:7b` (local)**, cùng phong cách
-với `shopping-agent` và `ReAct demo` trong cùng lab.
+Xây trên nền **LangGraph pipeline tất định** + **Ollama `qwen2.5:7b` (local)**.
 
 **Đo được:** 500 CV ≈ **18 phút** (chạy lại ≈ 8 phút nhờ cache), trung bình **2,16s/CV**,
 tiết kiệm **80%** số lần gọi LLM. Bộ test 183 case chạy 1,2s không cần Ollama.
@@ -22,7 +21,7 @@ START -> extract -> (extraction_ok?) -> score -> decide -> END
                          └── (CV scan ảnh, không có text) ──> decide (manual_review)
 ```
 
-3 công cụ (tools) — đúng như đề bài:
+3 công cụ (tools):
 
 | Tool | File | Nhiệm vụ |
 |------|------|----------|

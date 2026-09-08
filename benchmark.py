@@ -207,7 +207,7 @@ def main():
     ap = argparse.ArgumentParser(description="Do hieu nang batch lon cua cv-screener.")
     ap.add_argument("--n", type=int, default=100, help="So ho so gia lap (mac dinh 100)")
     ap.add_argument("--junk-ratio", type=float, default=0.8,
-                    help="Ty le ho so khong lien quan (mac dinh 0.8 - dung nhu de bai)")
+                    help="Ty le ho so khong lien quan (mac dinh 0.8 - mo phong tinh huong thuc te)")
     ap.add_argument("--mock-llm", action="store_true",
                     help="Khong goi Ollama - chi do phan tat dinh")
     ap.add_argument("--warm", action="store_true",

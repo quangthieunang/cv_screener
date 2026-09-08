@@ -1,7 +1,7 @@
 """
 Module cau hinh tap trung cho cv-screener (HR CV Screener Agent).
 
-Cau truc mo phong shopping-agent/config.py: hang so LLM + duong dan + nguong.
+Gom hang so LLM + duong dan + nguong.
 SMTP doc tu bien moi truong (.env) de gui email that - KHONG hardcode mat khau.
 """
 import os
